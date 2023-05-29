@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* 1번째 */
+
+/* div안에 폰트 설정 */
+.hi {
+  width: 380px;
+  height: 400px;
+  margin: 10px 0px;
+  font-size: 3em;
+  border: 3px solid black;
+  color: brown;
+}
+/* 백그라운드 설정 */
+#bg_1 {
+  background-image: url(../images/포테토.jpg);
+  background-size: 100% 100% cover;
+  background-repeat: no-repeat;
+
+  /* scroll, fixexd 둘 중에 하나 설정하기 */
+
+  /* scroll은 그림 & 글자 둘 다 같이 스크롤 따라서 움직임 */
+  /* background-attachment: scroll; */
+
+  /* fixed는 그림은 고정하고 글자는 스크롤 따라서 움직임 */
+  background-attachment: fixed;
+}
+
+/* 2번째 */
+div {
+  height: 1000px;
+}
+#bg1 {
+  background-image: url(../images/KakaoTalk_20230517_095955227.jpg);
+  background-size: 100% 100% cover;
+}
+#bg2 {
+  background-image: url(../images/KakaoTalk_20230517_095955227_01.jpg);
+  background-size: 100% 100% cover;
+}
+#bg3 {
+  background-image: url(../images/KakaoTalk_20230517_095955227_02.jpg);
+  background-size: 100% 100% cover;
+  background-attachment: fixed;
+}
+#bg4 {
+  background-image: url(../images/KakaoTalk_20230517_095955227_03.jpg);
+  background-size: 100% 100% cover;
+}
+#bg5 {
+  background-image: url(../images/KakaoTalk_20230517_095955227_04.jpg);
+  background-size: 100% 100% cover;
+}
